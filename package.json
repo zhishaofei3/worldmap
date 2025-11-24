@@ -1,9 +1,10 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "worldmap",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npx http-server . -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "private": true
